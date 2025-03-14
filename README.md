@@ -1,6 +1,3 @@
-# Dermatology
-project Goal: Determine what clinical and histopathological features are the most significant predictors that classify patients into specific erythemato-squamous diseases.
-
 # Dataset Information
 
 This database contains 34 attributes, 33 of which are linear valued and one of them is nominal. 
@@ -13,16 +10,16 @@ The names and id numbers of the patients were recently removed from the database
 
 Reference: https://archive.ics.uci.edu/dataset/33/dermatology
 
-# Task Breakdown
- 1. EDA(Explaratory Data Analysis): Done by each of the team members separately
- 2. Data preprocessing (strandardization, imputation, encoding(?)): Done by each of the team members separately
- 3. Model Development: Each team member will work on a different model (suggested models: Random Forest, XGBust, Neural Network, SVM, KNN, Decision Tree)
- 4. Hyper Parameter Tuning: Grid Search, Cross-validation, 
- 5. Model Evaluation: Same as above
- 6. Feture Importrance Analysis
- 7. Presentation/Explanation
- 8. (Optional) User Interface, APIs
- 9. (Future Works): 1. Design semi-supervised learning by use of Generative Adverserial Network. 2. Optimization
+# Project Goal
+Determine what clinical and histopathological features are the most significant predictors that classify patients into specific erythemato-squamous diseases.
 
-|test|test2|
-_|-|test2|
+# Task Breakdown
+ 1. EDA(Explaratory Data Analysis): Contributors(Done by each of the team members separately)
+ 2. Data preprocessing (strandardization, imputation, encoding(?)):  Contributors(Done by each of the team members separately)
+ 3. Model Development: (suggested models: Random Forest, XGBoost, Neural Network, SVM, KNN, Decision Tree) contributors(Each team member will work on a different model)
+ 4. Hyper Parameter Tuning including Grid Search, Cross-validation: contributors(same as above)
+ 5. Model Evaluation: contributors(same as above)
+ 6. Feture Importrance Analysis: contributors(same as above)
+ 7. Presentation/Explanation: contributors(same as above)
+ 8. (Optional) User Interface, APIs: contributors(TBD)
+ 9. (Future Works): 1. Designing semi-supervised learning by use of Generative Adverserial Network. 2. Optimization: contributors(TBD)
