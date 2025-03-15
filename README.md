@@ -5,12 +5,13 @@ Determine what clinical and histopathological features are the most significant 
  1. EDA(Explaratory Data Analysis): Contributors(Done by each of the team members separately)
  2. Data preprocessing (strandardization, imputation, encoding(?)):  Contributors(Done by each of the team members separately)
  3. Model Development: (suggested models: Random Forest, XGBoost, Neural Network, SVM, KNN, Decision Tree) contributors(Each team member will work on a different model)
- 4. Hyper Parameter Tuning including Grid Search, Cross-validation: contributors(same as above)
- 5. Model Evaluation: contributors(same as above)
- 6. Feture Importrance Analysis: contributors(same as above)
- 7. Presentation/Explanation: contributors(same as above)
- 8. (Optional) User Interface, APIs: contributors(TBD)
- 9. (Future Works): 1. Designing semi-supervised learning by use of Generative Adverserial Network. 2. Optimization: contributors(TBD)
+ 4. Initial Model Evaluation: contributors(Each team member will work on a different model)
+ 5. Hyper Parameter Tuning including Grid Search, Cross-validation: contributors(same as above)
+ 6. Final Model Evaluation: contributors(same as above)
+ 7. Feture Importrance Analysis: contributors(same as above)
+ 8. Presentation/Explanation: contributors(same as above)
+ 9. (Optional) User Interface, APIs: contributors(TBD)
+ 10. (Future Works): 1. Designing semi-supervised learning by use of Generative Adverserial Network. 2. Optimization: contributors(TBD)
 
 # Dataset Information
 
