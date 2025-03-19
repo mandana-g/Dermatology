@@ -21,7 +21,7 @@ Reference: https://archive.ics.uci.edu/dataset/33/dermatology
 
 We used Python to explore, clean, analyze and visualize our data. SHAP (SHapley Additive exPlanations) was used to determine the most important features for predicting the dermatological conditions.
 
-To develop models that can classify our data, we used the following methods: 
+To develop models that can be used to classify the data and predict the dermatological conditions, we used the following methods: 
 * ExtraTrees
 * RandomForest
 * SVM
