@@ -13,63 +13,28 @@ The names and id numbers of the patients were recently removed from the database
 
 Reference: https://archive.ics.uci.edu/dataset/33/dermatology
 
-# Project: AI-Powered Dermatology Diagnostic System
+# Purpose & Overview
 
-# Dermatology Diagnosis Using Machine Learning
+The purpose of this project is to build and evaluate machine learning models to classify patients into specific erythemato-squamous disease categories using clinical and histopathological data. The project also focuses on identifying the most significant features that influence these classifications to provide valuable insights for medical professionals.
 
-## Project Overview
-This project focuses on using **machine learning** to improve the diagnosis of **erythemato-squamous diseases** based on clinical and histopathological data. These diseases, including **psoriasis, seborrheic dermatitis, lichen planus, pityriasis rosea, chronic dermatitis,** and **pityriasis rubra pilaris**, present similar clinical symptoms, making accurate diagnosis challenging. Our goal is to develop a **decision support system** and analyze the most important features contributing to disease classification.
+**Business question:**  
+*What clinical and histopathological features are the most significant predictors that classify patients into specific erythemato-squamous diseases?*
 
----
+This project has two core objectives:
+- **Develop and compare multiple classification models** to determine which achieves the highest predictive accuracy for diagnosing six types of erythemato-squamous diseases.
+- **Identify key clinical and histopathological predictors** that contribute most to the classification decisions.
 
-## Project Goals
+## How this is approached:
 
-### 1️⃣ Development of a Diagnostic Decision Support System
-🔹 **Objective:**  
-Build a **machine learning model** that assists dermatologists in accurately diagnosing skin diseases using **clinical and histopathological features**.  
+- Multiple machine learning models are evaluated, including **Random Forest, Extra Trees, SVM, KNN, XGBoost,** and **Naive Bayes**.
+- A preprocessing pipeline is used to streamline **data imputation** (for missing values in "age") and model training.
+- **Class imbalance** is addressed by applying `class_weight="balanced"` in applicable algorithms.
+- **Optuna** is used for hyperparameter tuning, optimizing parameters such as `n_estimators`, `max_depth`, and `min_samples_split` for the selected models.
+- To explain model behavior and highlight important features, several interpretability techniques are applied:
+  - **Built-in feature importance** for tree-based models.
+  - **Permutation importance** for models without native feature importance.
+  - **LIME** for local-level explanations of individual predictions.
+  - **SHAP** to provide a global understanding of how features influence model outputs across all classes.
 
-🔹 **How It Works:**  
-Develop a system where **doctors can input patient data** (symptoms, test results, etc.) into a **web-based interface** or **API**, and the machine learning model will **analyze the data** to provide a **predicted diagnosis**.  
-
-🔹 **Why It Matters:**  
-- Reduces **misdiagnosis** by providing **data-driven insights**.  
-- Assists dermatologists in differentiating between diseases with **similar symptoms**.  
-- Can be **integrated into telemedicine** services to improve accessibility.  
-
-🔹 **Implementation:**  
-- Train a **classification model** (e.g., **Random Forest, SVM, Neural Networks**) using the **Dermatology dataset**.  
-- **To be determined**
-
-
----
-
-### 2️⃣ Feature Importance Analysis
-🔹 **Objective:**  
-Identify the most **critical features** that influence disease classification, helping dermatologists understand which factors matter most.  
-
-🔹 **Why It Matters:**  
-- Helps **prioritize key clinical & histopathological indicators** in medical assessments.  
-- Reduces the reliance on **less significant** features, optimizing **diagnostic procedures**.  
-- Improves **interpretability** of AI-driven diagnoses, making models more **trustworthy for doctors**.  
-
-🔹 **Implementation:**  
-- Use techniques like **SHAP (SHapley Additive Explanations)** and **Feature Importance from Random Forest**.  
-- Visualize the top contributing factors to **each disease class**.  
-- Compare different feature selection techniques to find the **most reliable indicators**.  
-
----
-
-## Next Steps
-✔ Train & optimize the **classification model**  
-✔ Perform **feature importance analysis**  
-✔ Build a **user-friendly web interface**  
-
-🚀 **Final Goal:** Deliver an AI-powered **diagnostic assistant** that can **aid doctors in real-time decision-making** while improving **medical understanding of key diagnostic features**.
-
----
-
-📌 **Tech Stack:** Python, Scikit-Learn, FastAPI, SHAP, Pandas, Matplotlib  
-
-
-
+The project delivers insights into both the **best-performing model** for this task and the **critical features** driving its decisions, offering actionable knowledge for potential clinical applications.
 
