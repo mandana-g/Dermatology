@@ -13,4 +13,26 @@ The names and id numbers of the patients were recently removed from the database
 
 Reference: https://archive.ics.uci.edu/dataset/33/dermatology
 
+# Purpose & Overview 
+
+# Goals & Objectives
+
+# Tools and Technologies 
+
+We used Python to explore, clean, analyze and visualize our data. SHAP (SHapley Additive exPlanations) was used to determine the most important features for predicting the dermatological conditions.
+
+To develop models that can classify our data, we used the following methods: 
+* ExtraTrees
+* RandomForest
+* SVM
+* KNN
+* XGBoost
+* NaiveBayes
+* Decision Tree
+
+# Key Findings & Instructions
+
+# Visuals & Credits 
+
+
 
