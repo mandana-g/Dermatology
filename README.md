@@ -29,3 +29,29 @@ In the dataset constructed for this domain, the family history feature has the v
 The names and id numbers of the patients were recently removed from the database.
 
 Reference: https://archive.ics.uci.edu/dataset/33/dermatology
+
+
+# Purpose & Overview
+
+The purpose of this project is to build and evaluate machine learning models to classify patients into specific erythemato-squamous disease categories using clinical and histopathological data. The project also focuses on identifying the most significant features that influence these classifications to provide valuable insights for medical professionals.
+
+**Business question:**  
+*What clinical and histopathological features are the most significant predictors that classify patients into specific erythemato-squamous diseases?*
+
+This project has two core objectives:
+- **Develop and compare multiple classification models** to determine which achieves the highest predictive accuracy for diagnosing six types of erythemato-squamous diseases.
+- **Identify key clinical and histopathological predictors** that contribute most to the classification decisions.
+
+## How this is approached:
+
+- Multiple machine learning models are evaluated, including **Random Forest, Extra Trees, SVM, KNN, XGBoost,** and **Naive Bayes**.
+- A preprocessing pipeline is used to streamline **data imputation** (for missing values in "age") and model training.
+- **Class imbalance** is addressed by applying `class_weight="balanced"` in applicable algorithms.
+- **Optuna** is used for hyperparameter tuning, optimizing parameters such as `n_estimators`, `max_depth`, and `min_samples_split` for the selected models.
+- To explain model behavior and highlight important features, several interpretability techniques are applied:
+  - **Built-in feature importance** for tree-based models.
+  - **Permutation importance** for models without native feature importance.
+  - **LIME** for local-level explanations of individual predictions.
+  - **SHAP** to provide a global understanding of how features influence model outputs across all classes.
+
+The project delivers insights into both the **best-performing model** for this task and the **critical features** driving its decisions, offering actionable knowledge for potential clinical applications.
