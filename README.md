@@ -29,3 +29,46 @@ In the dataset constructed for this domain, the family history feature has the v
 The names and id numbers of the patients were recently removed from the database.
 
 Reference: https://archive.ics.uci.edu/dataset/33/dermatology
+
+# Tools & Technologies 
+
+We used Python to explore, clean, analyze and visualize our data. SHAP (SHapley Additive exPlanations) was used to determine the most important features for predicting the dermatological conditions.
+
+To develop models that can be used to classify the data and predict the dermatological conditions, we used the following methods:
+
+ExtraTrees
+RandomForest
+SVM
+KNN
+XGBoost
+NaiveBayes
+Decision Tree
+
+## Installation Instructions 
+To run the models and find the most important features, run the following notebooks in the 'Code' folder in the order listed below: 
+* Preprocessing_&_Model_Selection.ipynb
+* model.ipynb
+
+To run the notebooks, you will need one of the following: 
+* Python 
+* Anaconda 
+* Google Colab 
+
+### Python 
+1.  Download Python from python.org
+2. During installation, check "Add Python to PATH" and complete the installation
+3. Install Jupyter Notebook via command line (Terminal/Command Prompt): Enter 'pip install notebook'
+4. Launch and Use Jupyter Notebook
+5. Locate and run the notebooks 
+
+### Anaconda 
+1. Install Anaconda by downloading it from anaconda.com
+2. Once installed, launch the Anaconda Navigator.
+3. Click on the Jupyter Notebook tile 
+4. Locate the files and select 'Run' to run the notebooks 
+
+### Google Colab 
+1. Go to colab.research.google.com
+2. Sign in with your Google account
+3. Upload the notebook 
+4. Click 'Run All' under 'Runtime' to run the notebooks 
