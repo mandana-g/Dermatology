@@ -154,10 +154,10 @@ This SHAP analysis enhances interpretability by quantifying feature importance a
 
 | Name              | GitHub Account                            | Email                                                    | Roles/Responsibilities                                       | Reflection Video |
 |------------------ |--------------------------------------------------|-----------------------------------------------------------|--------------------------------------------------------------------|------------------|
-| Mandana           | [@username](https://github.com/username)         | [642@gmail.com](mailto:123@gmail.com)                     | Data cleanup, model development and optimization                   | Video            |
-| Teressa           | [@username](https://github.com/username)         | [642@gmail.com](mailto:123@gmail.com)                     | Data cleanup, model development and optimization                   | Video            |
-| Carlos            | [@username](https://github.com/username)         | [642@gmail.com](mailto:123@gmail.com)                     | Data cleanup, model development and optimization                   | Video            |
-| Hossein Khonsari  | [@Hossein](https://github.com/hossein2024-hub)   | [hossein@gmail.com](mailto:hossein.khonsari@gmail.com)    | Data cleanup, model development and optimization                   | Video            |
+| Mandana           | [@username](https://github.com/username)         | [642@gmail.com](mailto:123@gmail.com)                     | Data cleanup, model development and optimization                   | [Link Text](URL) |
+| Teressa           | [@username](https://github.com/username)         | [642@gmail.com](mailto:123@gmail.com)                     | Data cleanup, model development and optimization                   | [Link Text](URL) |
+| Carlos            | [@username](https://github.com/username)         | [642@gmail.com](mailto:123@gmail.com)                     | Data cleanup, model development and optimization                   | [Link Text](URL) |
+| Hossein Khonsari  | [@Hossein](https://github.com/hossein2024-hub)   | [hossein@gmail.com](mailto:hossein.khonsari@gmail.com)    | Data cleanup, model development and optimization                   | [Link Text](URL) |            |
 
     
 
