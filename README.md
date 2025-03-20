@@ -126,8 +126,38 @@ As can be seen, the probability density distribution of the *'age'* variable sho
 The SHAP (SHapley Additive exPlanations) figure provides a detailed breakdown of feature importance across six dermatological conditions. For instance, the SHAP analysis for **psoriasis** identifies **"Clubbing of the rete ridges"** as the most influential feature, with a high positive SHAP value indicating its strong contribution to psoriasis classification. "Thinning of the suprapapillary epidermis" and "spongiosis" also emerge as significant contributors, reflecting important histopathological characteristics of psoriasis. Other features like "elongation of the rete ridges" and "fibrosis of the papillary dermis" play a secondary role but still provide meaningful contributions. The prominence of these features aligns with clinical findings, where epidermal changes and dermal inflammation are central to psoriasis pathology. In addition, the SHAP visualizations reveal several cross-condition patterns in feature importance. For example, while **"fibrosis of the papillary dermis"** is critical for **chronic dermatitis** classification, it plays a less significant role in other conditions like **psoriasis**. Similarly, features like "clubbing of the rete ridges" show variable importance across conditions—being highly influential for psoriasis but less so for **pityriasis rubra pilaris**.
 ![plot](Image/dermatology_shap_summary_grid.png)
 
+**7. SHAP Bar Plot Analysis**
+
+The SHAP bar plot provides a comprehensive overview of feature importance across all classes. By aggregating the mean absolute SHAP values for each feature, the visualization highlights the average impact of individual histopathological features on model predictions across six dermatological conditions. For instance, the most impactful features across all classes include "clubbing of the rete ridges", "elongation of the rete ridges",  "thinning of the suprapapillary epidermis", and "spongiosis" These features consistently exhibit high mean SHAP values, indicating their significant contributions to distinguishing between dermatological conditions.
+![plot](Image/shap_top_20_features_stacked.png)
 
 
+- **Clubbing of the rete ridges** emerges as the most influential feature overall, with substantial contributions across multiple conditions. Its prominence reflects its diagnostic relevance in disorders like psoriasis and seborrheic dermatitis, where epidermal structural changes are critical.
+  - **Spongiosis**, a marker of intercellular edema in the epidermis, ranks second in importance. It plays a vital role in inflammatory conditions such as seborrheic dermatitis and chronic dermatitis.
+  - **Elongation of the rete ridges** is another key feature with widespread impact across classes. This structural alteration is particularly relevant in psoriasis and pityriasis rosea.
+  - **Thinning of the suprapapillary epidermis** is highly specific to psoriasis but also contributes moderately to other conditions.
+
+  Features such as "vacuolisation and damage of the basal layer," "band-like infiltrate," "saw-tooth appearance of rete ridges exhibit moderate SHAP values. These features are more condition-specific but still contribute significantly to model predictions.
+
+  - **Vacuolisation and damage of the basal layer** is particularly critical for lichen planus, reflecting its pathophysiological hallmark.
+  - **Band-like infiltrate** aligns with lichen planus' characteristic lymphocytic infiltration at the dermoepidermal junction.
+  - **Saw-tooth appearance of rete ridges** is another distinctive feature for lichen planus, while **Koebner phenomenon** contributes to psoriasis and pityriasis rosea.
+
+## Clinical Implications
+
+This SHAP analysis enhances interpretability by quantifying feature importance across all classes simultaneously. By identifying globally dominant features (e.g., clubbing of rete ridges) alongside condition-specific markers (e.g., vacuolisation for lichen planus), clinicians can better understand how machine learning models arrive at their predictions.
+
+## Conclusion
+
+## Team Members
+
+
+| Name              | GitHub Account                            | Email                                                    | Roles/Responsibilities                                       | Reflection Video |
+|------------------ |--------------------------------------------------|-----------------------------------------------------------|--------------------------------------------------------------------|------------------|
+| Mandana           | [@username](https://github.com/username)         | [642@gmail.com](mailto:123@gmail.com)                     | Data cleanup, model development and optimization                   | Video            |
+| Teressa           | [@username](https://github.com/username)         | [642@gmail.com](mailto:123@gmail.com)                     | Data cleanup, model development and optimization                   | Video            |
+| Carlos            | [@username](https://github.com/username)         | [642@gmail.com](mailto:123@gmail.com)                     | Data cleanup, model development and optimization                   | Video            |
+| Hossein Khonsari  | [@Hossein](https://github.com/hossein2024-hub)   | [hossein@gmail.com](mailto:hossein.khonsari@gmail.com)    | Data cleanup, model development and optimization                   | Video            |
 
     
 
