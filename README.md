@@ -1,8 +1,12 @@
 # Project Goal
 
-The goal of this project is to develop machine learning model(s) that can accurately classify patients into specific erythemato-squamous diseases based on clinical and histopathological features. These diseases include psoriasis, seborrheic dermatitis, lichen planus, pityriasis rosea, chronic dermatitis, and pityriasis rubra pilaris. The ultimate aim is to assist dermatologists in making more accurate diagnoses by identifying the most significant predictive features.
+Determine what clinical and histopathological features are the most significant predictors that classify patients into specific erythemato-squamous diseases.
 
 # Objectives
+
+Assisting dermatologists in identifying the key features that most influence their diagnoses of erythemato-squamous diseases
+
+# Methodology
 
 1. Exploratory Data Analysis (EDA):
    1.1. Analyze the distribution of clinical and histopathological features.
