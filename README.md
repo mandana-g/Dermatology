@@ -4,7 +4,9 @@ Determine what clinical and histopathological features are the most significant 
 
 # Objectives
 
-Assisting dermatologists in identifying the key features that most influence their diagnoses of erythemato-squamous diseases.
+1. Analyzing and investigating the dataset to find some insights into our classification model.
+2. Training different classification models to come up with the best possible classifications in terms of predefined metrics.
+3. Finding the important features based on the detection outcome of our best finding classification model.
 
 # Methodology
 
