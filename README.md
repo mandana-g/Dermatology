@@ -4,7 +4,7 @@ Determine what clinical and histopathological features are the most significant 
 
 # Objectives
 
-Assisting dermatologists in identifying the key features that most influence their diagnoses of erythemato-squamous diseases
+Assisting dermatologists in identifying the key features that most influence their diagnoses of erythemato-squamous diseases.
 
 # Methodology
 
