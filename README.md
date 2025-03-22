@@ -215,10 +215,10 @@ The study provides a comprehensive analysis of dermatological data, addressing k
 
 | Name              | GitHub Account                            | Email                                                    | Roles/Responsibilities                                       | Reflection Video |
 |------------------ |--------------------------------------------------|-----------------------------------------------------------|--------------------------------------------------------------------|------------------|
-| Mandana           | [@username](https://github.com/username)         | [642@gmail.com](mailto:123@gmail.com)                     | Data cleanup, model development and optimization                   | [Link Text](URL) |
-| Teressa           | [@username](https://github.com/username)         | [642@gmail.com](mailto:123@gmail.com)                     | Data cleanup, model development and optimization                   | [Link Text](URL) |
+| Mandana           | [@mandana-g](https://github.com/mandana-g)         | [goudarzian@hotmail.com](mailto:goudarzian@hotmail.com)                     | Data cleanup, model development and optimization                   | [Link Text](URL) |
+| Teressa           | [@teresa-le](https://github.com/teresa-le)         | [teresale8@gmail.com](mailto:teresale8@gmail.com)                     | Data cleanup, model development and optimization                   | [Link Text](URL) |
 | Carlos            | [@carvas91](https://github.com/carvas91)         | [carvas91@hotmail.com](mailto:carvas91@hotmail.com)                     | Data cleanup, model development and optimization                   | [Reflection Video](https://drive.google.com/file/d/1u0XRdedF523vV5f-rs_MiUmUSCfBb0VM/view?usp=drive_link) |
-| Hossein Khonsari  | [@Hossein](https://github.com/hossein2024-hub)   | [hossein@gmail.com](mailto:hossein.khonsari@gmail.com)    | Data cleanup, model development and optimization                   | [Link Text](URL) |            |
+| Hossein Khonsari  | [@hossein2024-hub](https://github.com/hossein2024-hub)   | [hossein@gmail.com](mailto:hossein.khonsari@gmail.com)    | Data cleanup, model development and optimization                   | [Link Text](URL) |            |
 
     
 
