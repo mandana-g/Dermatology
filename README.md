@@ -1,3 +1,14 @@
+# Purpose & Overview
+
+The purpose of this project is to develop and evaluate machine learning models that can assist dermatologists in classifying patients into specific erythemato-squamous disease categories based on clinical and histopathological data.
+
+For instance, distinguishing between conditions like **psoriasis** and **seborrheic dermatitis** is clinically challenging due to overlapping symptoms. A data-driven solution can enhance diagnostic precision and reduce reliance on invasive procedures like biopsies.
+
+The project focuses on two key objectives:
+
+1. **Developing and comparing several machine learning classifiers** to identify the most accurate model for predicting six types of erythemato-squamous diseases.
+2. **Identifying critical clinical and histopathological features** that contribute to these classifications, helping clinicians interpret model outputs.
+
 # Project Goal
 
 Determine what clinical and histopathological features are the most significant predictors that classify patients into specific erythemato-squamous diseases.
@@ -206,51 +217,12 @@ The study provides a comprehensive analysis of dermatological data, addressing k
 |------------------ |--------------------------------------------------|-----------------------------------------------------------|--------------------------------------------------------------------|------------------|
 | Mandana           | [@username](https://github.com/username)         | [642@gmail.com](mailto:123@gmail.com)                     | Data cleanup, model development and optimization                   | [Link Text](URL) |
 | Teressa           | [@username](https://github.com/username)         | [642@gmail.com](mailto:123@gmail.com)                     | Data cleanup, model development and optimization                   | [Link Text](URL) |
-| Carlos            | [@username](https://github.com/username)         | [642@gmail.com](mailto:123@gmail.com)                     | Data cleanup, model development and optimization                   | [Link Text](URL) |
+| Carlos            | [@carvas91](https://github.com/carvas91)         | [carvas91@hotmail.com](mailto:carvas91@hotmail.com)                     | Data cleanup, model development and optimization                   | [Reflection Video](https://drive.google.com/file/d/1u0XRdedF523vV5f-rs_MiUmUSCfBb0VM/view?usp=drive_link) |
 | Hossein Khonsari  | [@Hossein](https://github.com/hossein2024-hub)   | [hossein@gmail.com](mailto:hossein.khonsari@gmail.com)    | Data cleanup, model development and optimization                   | [Link Text](URL) |            |
 
     
 
-
-
-
-
-
-
-# Project Goal
-Determine what clinical and histopathological features are the most significant predictors that classify patients into specific erythemato-squamous diseases. 
-
-# Task Breakdown
-
-| No. | Task | Contributor |
-|---- | -----|-------------|
-| 1   |EDA (Explaratory Data Analysis)| all team members |
-| 2   | Data preprocessing (strandardization, imputation, encoding(?)) | all team members |
-| 3   | Model Development (suggested models: Random Forest, XGBoost, Neural Network, SVM, KNN, Decision Tree) | each team member separately |
-| 4   | Initial Model Evaluation | same as above |
-| 5   | Hyper Parameter Tuning (Grid Search, Cross-validation, etc)| same as above |
-| 6   | Final Model Evaluation | same as above |
-| 7   | Feture Importrance Analysis | same as above |
-| 8   | Presentation/Explanation    | same as above | 
-| 9   | (Optional) User Interface, APIs | TBD |
-| 10  | (Future Works): 1. Designing semi-supervised learning by use of Generative Adverserial Network. 2. Optimization  | TBD |
-
-
-
-# Dataset Information
-
-This database contains 34 attributes, 33 of which are linear valued and one of them is nominal. 
-
-The differential diagnosis of erythemato-squamous diseases is a real problem in dermatology. They all share the clinical features of erythema and scaling, with very little differences. The diseases in this group are psoriasis, seboreic dermatitis, lichen planus, pityriasis rosea, cronic dermatitis, and pityriasis rubra pilaris. Usually a biopsy is necessary for the diagnosis but unfortunately these diseases share many histopathological features as well. Another difficulty for the differential diagnosis is that a disease may show the features of another disease at the beginning stage and may have the characteristic features at the following stages. Patients were first evaluated clinically with 12 features. Afterwards, skin samples were taken for the evaluation of 22 histopathological features. The values of the histopathological features are determined by an analysis of the samples under a microscope. 
-
-In the dataset constructed for this domain, the family history feature has the value 1 if any of these diseases has been observed in the family, and 0 otherwise. The age feature simply represents the age of the patient. Every other feature (clinical and histopathological) was given a degree in the range of 0 to 3. Here, 0 indicates that the feature was not present, 3 indicates the largest amount possible, and 1, 2 indicate the relative intermediate values.
-
-The names and id numbers of the patients were recently removed from the database.
-
-Reference: https://archive.ics.uci.edu/dataset/33/dermatology
-
-
-# Task Breakdown
+# Tasks Breakdown
 
 | No. | Task | Contributor |
 |---- | -----|-------------|
@@ -324,4 +296,4 @@ To develop models that can be used to classify the data and predict the dermatol
 * Decision Tree
 * XGBoost
 * Random Forest 
-* Extra Trees 
+* Extra Trees
