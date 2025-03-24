@@ -217,7 +217,7 @@ The study provides a comprehensive analysis of dermatological data, addressing k
 | Mandana           | [@mandana-g](https://github.com/mandana-g)         | [goudarzian@hotmail.com](mailto:goudarzian@hotmail.com)                     | Data cleanup, model development and optimization                   | [Reflection Video](https://drive.google.com/file/d/1XwqGuebDLpGIRz7meL-5CXr0lY6cKSCF/view?usp=sharing) |
 | Teressa           | [@teresa-le](https://github.com/teresa-le)         | [teresale8@gmail.com](mailto:teresale8@gmail.com)                     | Data cleanup, model development and optimization                   | [Reflection Video](https://www.loom.com/share/408deef3649042439b2c0e5f56669f63?sid=8032444b-13ac-454d-9169-41c8e283d38b) |
 | Carlos            | [@carvas91](https://github.com/carvas91)         | [carvas91@hotmail.com](mailto:carvas91@hotmail.com)                     | Data cleanup, model development and optimization                   | [Reflection Video](https://drive.google.com/file/d/1u0XRdedF523vV5f-rs_MiUmUSCfBb0VM/view?usp=drive_link) |
-| Hossein Khonsari  | [@hossein2024-hub](https://github.com/hossein2024-hub)   | [hossein@gmail.com](mailto:hossein.khonsari@gmail.com)    | Data cleanup, model development and optimization                   | [Link Text](URL) |            |
+| Hossein Khonsari  | [@hossein2024-hub](https://github.com/hossein2024-hub)   | [hossein@gmail.com](mailto:hossein.khonsari@gmail.com)    | Data cleanup, model development and optimization                   | [Reflection Video](https://www.veed.io/view/d637c9d3-6701-433c-85b2-37337ca4d8cc?panel=share) |            |
 
     
 
