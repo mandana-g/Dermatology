@@ -214,7 +214,7 @@ The study provides a comprehensive analysis of dermatological data, addressing k
 
 | Name              | GitHub Account                            | Email                                                    | Roles/Responsibilities                                       | Reflection Video |
 |------------------ |--------------------------------------------------|-----------------------------------------------------------|--------------------------------------------------------------------|------------------|
-| Mandana           | [@mandana-g](https://github.com/mandana-g)         | [goudarzian@hotmail.com](mailto:goudarzian@hotmail.com)                     | Data cleanup, model development and optimization                   | [Reflection Video](https://drive.google.com/file/d/1XwqGuebDLpGIRz7meL-5CXr0lY6cKSCF/view?usp=sharing) |
+| Mandana Goudarzian          | [@mandana-g](https://github.com/mandana-g)         | [goudarzian@hotmail.com](mailto:goudarzian@hotmail.com)                     | Data cleanup, model development and optimization                   | [Reflection Video](https://drive.google.com/file/d/1XwqGuebDLpGIRz7meL-5CXr0lY6cKSCF/view?usp=sharing) |
 | Teressa           | [@teresa-le](https://github.com/teresa-le)         | [teresale8@gmail.com](mailto:teresale8@gmail.com)                     | Data cleanup, model development and optimization                   | [Reflection Video](https://www.loom.com/share/408deef3649042439b2c0e5f56669f63?sid=8032444b-13ac-454d-9169-41c8e283d38b) |
 | Carlos            | [@carvas91](https://github.com/carvas91)         | [carvas91@hotmail.com](mailto:carvas91@hotmail.com)                     | Data cleanup, model development and optimization                   | [Reflection Video](https://drive.google.com/file/d/1u0XRdedF523vV5f-rs_MiUmUSCfBb0VM/view?usp=drive_link) |
 | Hossein Khonsari  | [@hossein2024-hub](https://github.com/hossein2024-hub)   | [hossein@gmail.com](mailto:hossein.khonsari@gmail.com)    | Data cleanup, model development and optimization                   | [Reflection Video](https://www.veed.io/view/d637c9d3-6701-433c-85b2-37337ca4d8cc?panel=share) |            |
@@ -223,18 +223,18 @@ The study provides a comprehensive analysis of dermatological data, addressing k
 
 # Tasks Breakdown
 
-| No. | Task | Contributor |
-|---- | -----|-------------|
-| 1   |EDA(Exploratory Data Analysis)| all team members |
-| 2   | Data preprocessing( standardization, imputation, encoding(?)) | all team members |
-| 3   | Model Development( suggested models: Random Forest, XGBoost, Neural Network, SVM, KNN, Decision Tree) | each team member separately |
-| 4   | Initial Model Evaluation | same as above |
-| 5   | Hyper Parameter Tuning (Grid Search, Cross-validation, etc)| same as above |
-| 6   | Final Model Evaluation | same as above |
-| 7   | Feature Importance Analysis | same as above |
-| 8   | Presentation/Explanation    | same as above | 
-| 9   | (Optional) User Interface, APIs | TBD |
-| 10  | (Future Works): 1. Designing semi-supervised learning by use of Generative Adversarial Network. 2. Optimization  | TBD |
+| No. | Task |
+|---- | -----|
+| 1   |EDA(Exploratory Data Analysis)|
+| 2   | Data preprocessing( standardization, imputation, encoding(?)) |
+| 3   | Model Development( suggested models: Random Forest, XGBoost, Neural Network, SVM, KNN, Decision Tree) |
+| 4   | Initial Model Evaluation |
+| 5   | Hyper Parameter Tuning (Grid Search, Cross-validation, etc)|
+| 6   | Final Model Evaluation | 
+| 7   | Feature Importance Analysis | 
+| 8   | Presentation/Explanation    | 
+| 9   | (Optional) User Interface, APIs | 
+| 10  | (Future Works): 1. Designing semi-supervised learning by use of Generative Adversarial Network. 2. Optimization  | 
 
 # Dataset Information
 
